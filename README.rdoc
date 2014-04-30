@@ -1,0 +1,24 @@
+== Tango API
+The simple API for the Tango integration.
+
+==Usage
+
+Step 1: Change constants values to real which you received from Tango
+
+CERTIFICATES_ROOT = 'path to certificates'
+CA_CERTIFICATE = 'tango_ca.pem'
+P12_CERTIFICATE = 'your_certificate_file_name.p12'
+P12_PASSWORD = 'your certificate password'
+
+Step 2: Just use it
+
+api = TangoApi.new(access_token)
+api.call
+
+==Author
+
+Mitka, Logic IT Staff
+
+==Copyright
+
+This content is released under the MIT License.
